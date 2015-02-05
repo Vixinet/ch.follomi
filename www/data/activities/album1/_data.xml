@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	<!-- Plase your photos here -->
+	<photo desc="Description" url="data/activities/album1/1.jpg" />
+	<photo desc="Description" url="data/activities/album1/2.jpg" />
+	<photo desc="Description" url="data/activities/album1/3.jpg" />
+	<photo desc="Description" url="data/activities/album1/4.jpg" />
+	<photo desc="Description" url="data/activities/album1/5.jpg" />
+	<photo desc="Description" url="data/activities/album1/6.jpg" />
+	<photo desc="Description" url="data/activities/album1/7.jpg" />
+	<photo desc="Description" url="data/activities/album1/8.jpg" />
+	<photo desc="Description" url="data/activities/album1/9.jpg" />
+	<photo desc="Description" url="data/activities/album1/10.jpg" />
+	<photo desc="Description" url="data/activities/album1/11.jpg" />
+	<photo desc="Description" url="data/activities/album1/12.jpg" />
+	<photo desc="Description" url="data/activities/album1/13.jpg" />
+	<photo desc="Description" url="data/activities/album1/14.jpg" />
+	<photo desc="Description" url="data/activities/album1/15.jpg" />
+	<photo desc="Description" url="data/activities/album1/16.jpg" />
+	<photo desc="Description" url="data/activities/album1/17.jpg" />
+	<photo desc="Description" url="data/activities/album1/18.jpg" />
+	<photo desc="Description" url="data/activities/album1/19.jpg" />
+	<photo desc="Description" url="data/activities/album1/20.jpg" />
+	<photo desc="Description" url="data/activities/album1/21.jpg" />
+	<photo desc="Description" url="data/activities/album1/22.jpg" />
+	<photo desc="Description" url="data/activities/album1/23.jpg" />
+	<photo desc="Description" url="data/activities/album1/24.jpg" />
+	<photo desc="Description" url="data/activities/album1/25.jpg" />
+	<photo desc="Description" url="data/activities/album1/26.jpg" />
+</photos>

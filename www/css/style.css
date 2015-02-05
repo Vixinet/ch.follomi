@@ -1,0 +1,586 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+	background : url('../images/bg-body.jpg') top left repeat;
+}
+
+.header, .menu, .body, .footer, .marginheadertop, .marginbodytop, .marginbodybottom {
+	background : url('../images/bg-content.png') top left repeat-y;
+	width : 1012px;
+	margin : auto;
+}
+
+.marginheadertop {
+	height : 46px;
+	background : url('../images/margin-header-top.png') top left no-repeat;
+}
+
+.marginbodytop {
+	height : 21px;
+	background : url('../images/margin-body-top.png') top left no-repeat;
+}
+
+.marginbodybottom {
+	height : 30px;
+	background : url('../images/margin-body-bottom.png') top left no-repeat;
+}
+
+.content {
+	margin : 0px;
+	padding : 0px 6px;
+}
+
+.header .content {
+	position : relative;
+	height : 420px;
+	background : center center no-repeat;
+}
+
+.body .content {
+	padding: 26px;
+}
+
+.menu {
+	background : url('../images/bg-menu.png') top left no-repeat;
+}
+
+h1, h2 {
+	margin : 0px;
+	margin-bottom : 10px;
+	padding : 0px;
+	font-family : "Trebuchet MS";
+	font-size : 24px;
+	color : #875119;
+	border-bottom : 1px solid #d1d1d1;
+	line-height : auto;
+}
+
+h1 input, h2 input {
+	font-family : "Trebuchet MS";
+	font-size : 24px;
+	color : #875119;
+	font-weight : bold;
+}
+
+input.admin {
+	border : none;
+	width : 100%;
+	padding : 0px;
+	margin : 0px;
+	background : url('../images/icon-field-admin.png') center right no-repeat;
+}
+
+input.admin.right {
+	text-align : right;
+	background : url('../images/icon-field-admin-right.png') center left no-repeat;
+}
+
+
+a img {
+	border : none;
+}
+
+p, td, th, li, marquee {
+	font-family : Arial;
+	font-size : 12px;
+	color : #222222;
+}
+
+p {	
+	line-height : 16px;
+}
+
+img#logo {
+	margin : 100px 0px 0px 100px;
+}
+
+.buttonadd {
+	width : 16px;
+	height : 16px;
+	background : url('../images/icon-add.png') top left transparent;
+	border : none;
+}
+
+.buttonsave {
+	width : 16px;
+	height : 16px;
+	background : url('../images/icon-save.png') top left transparent;
+	border : none;
+}
+
+marquee {
+	margin-bottom : 20px;
+}
+
+a, a:visited {
+	color : #875119;
+	text-decoration : none;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+
+.hover img
+{
+	padding: 10px;
+	background: #ffffff;
+}
+
+.hover img:hover
+{
+   background: #bfbfbf;
+}
+
+.center {
+	text-align : center;
+}
+
+.error {
+	color : red;
+}
+
+.through {
+	text-decoration : line-through;
+}
+
+td.edittoolbar {
+	vertical-align : bottom;
+	text-align : right;
+}
+
+.header .admintoolbar {
+	padding : 15px 20px 5px 10px;
+	text-align : right;
+	background : url('../images/bg-white.png') center center repeat;
+	border : 1px solid #FFFFFF;
+	float : right;
+}
+
+.header .infobar {
+	width : 980px;
+	position : absolute;
+	bottom : 10px;
+	margin-left : 10px;
+	background : url('../images/bg-white.png') center center repeat;
+	border-top : 1px solid #FFFFFF;
+}
+
+.header .infobar p {
+	line-height : 15px;
+	padding : 0px 10px;
+}
+
+.header .editingmode {
+	border-bottom : 2px solid red;
+}
+
+.header .editingmode1 {
+	border-bottom : 2px solid green;
+}
+
+.menu ul {
+	height : 60px;
+	margin : 0px 12px;
+	padding : 0px;
+}
+
+.menu ul li {
+	width : 122px;
+	height : 61px;
+	line-height : 20px;
+	list-style-type : none;
+	float : left;
+	text-align : center;
+	
+	background : url('../images/menu-off.png') bottom center no-repeat;
+}
+
+.menu ul li a, .menu ul li a:visited {
+	font-size : 21px;
+	font-family : "Trebuchet MS";
+	color : #866b56;
+}
+
+.menu ul li a:hover {
+	text-decoration : none;
+}
+
+.menu ul li a .subtitle {
+	font-size : 12px;
+	font-family : "Trebuchet MS";
+	color : #6e6e6e;
+}
+.menu ul li.actif {
+	background : url('../images/menu-on.png') bottom center no-repeat;
+}
+
+.menu ul li.actif a, .menu ul li a:hover {
+	color : black;
+}
+
+.menu ul li.actif a .subtitle, .menu ul li a .subtitle {
+	color : #875119;
+}
+
+.footer  p {
+	text-align : center;
+	margin : 0px;
+	padding : 10px 0px 5px 0px;
+	line-height : 14px;
+}
+
+table.team td {
+	vertical-align : top;
+}
+
+table.team table {
+	margin-bottom : 20px;
+}
+
+table.team table td.image img {
+	width : 150px;
+}
+
+table.team table td.infos {
+	width : 170px;
+}
+
+table.team table td.edittoolbar {
+	vertical-align : bottom;
+}
+
+table.about {
+	width : 100%;
+}
+
+table.about td {
+ 	vertical-align : top;
+}
+
+table.about td.text {
+	padding-right : 10px;
+}
+
+table.about td.text p {
+	text-align : justify;
+}
+
+table.about td.text img {
+	width : 150px;
+	float: right;
+	margin-left : 10px;
+}
+
+table.about td.maps {
+	width : 470px;
+}
+
+table.services {
+	width : 100%;
+}
+
+table.services td {
+	vertical-align : top;
+	padding-right : 20px;
+	width : 50%;
+}
+
+table.services td table {
+	width : 100%;
+}
+
+table.services td td {
+	padding : 0px;
+	width : auto;
+	vertical-align : middle;
+}
+
+table.services td td.label {
+	width : 200px;
+}
+
+table.services td td.space {
+	width : 10px;
+}
+
+table.services td td.actions {
+	width : 40px;
+}
+
+table.services td table {
+
+}
+
+table.location, table.adminusers {
+	border-collapse : collapse;
+	margin-bottom : 20px;
+	width : 100%;
+}
+
+table.location td, table.location th, table.adminusers td, table.adminusers th {
+	border : 1px solid #d1d1d1;
+	padding : 3px;
+	text-align : right;
+}
+
+table.adminusers td, table.adminusers th {
+	text-align : left;
+}
+
+table.location td.center {
+	text-align : center;
+}
+
+table.location th, table.adminusers th {
+	background : #d1d1d1;
+}
+
+table.location th.label {
+	text-align : left;
+}
+
+table.location td.label {
+	text-align : left;
+	width : 200px;
+}
+
+table.location tr.pair td {
+	background : #efefef;
+}
+
+div.index {
+	width : 690px;
+	float : left;
+}
+
+div.index table.newproducts img {
+	width : 80px;
+}
+
+div.index table.newproducts td.img, td.offres img {
+	width : 80px;
+}
+
+div.index table.newproducts td.space {
+	width : 15px;
+}
+
+div.index table.newproducts td.description {
+	width : 125px;
+}
+
+div.index table.firstline {
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+div.index table.firstline td.video {
+	width : 345px;
+	height : 292px;
+	text-align : center;
+}
+
+div.index table.firstline td.offres {
+	height : 292px;
+	vertical-align : top;
+}
+
+div.index table.firstline td.offres table {
+	border-collapse : collapse;
+}
+
+div.menucontact img.logofollomi {
+	float : left;
+	margin : 0px 10px 0px 0px;
+}
+
+div.menucontact {
+	float : right;
+	width : 250px;
+}
+
+div.menucontact img {
+	margin-bottom : 15px;
+}
+
+div.menucontact table.horaires{
+	width : 100%;
+}
+
+div.menucontact table.horaires td.c1 {
+	width : 120px;
+}
+
+div.menucontact table.horaires td.c2 {
+	width : auto;
+}
+
+div.menucontact table.horaires td.c3 {
+	width : 120px;
+	color : #875119;
+}
+
+table.events td {
+	vertical-align : top;
+	width : 100%;
+}
+
+table.events td table.event {
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+table.events table.event td.image {
+	width : 200px;
+	text-align : center;
+}
+
+table.events table.event td.image img {
+	width : 200px;
+	height : 280px;
+}
+
+table.events table.event td.edittoolbar {
+	vertical-align : bottom;
+}
+
+table.events table.event td.text {
+	width : auto;
+	padding : 0px ;
+}
+
+table.events table.event td.text textarea {
+	height : 400px;
+}
+
+table.events table.event td.text p {
+	margin-top : 0px;
+	text-align : justify;
+}
+
+table.storecat {
+	width : 100%;
+	border-collapse : collapse;
+}
+
+table.storecat td.categorie {
+	width : 200px;
+	text-align : center;
+	padding-bottom : 40px;
+	vertical-align : top;
+}
+
+table.storecat td.space {
+
+}
+
+table.storecat td img.thumb {
+	width : 200px;
+}
+
+table.storecat td input.label {
+	width : 181px;
+}
+
+table.store {
+	width : 100%;
+}
+
+
+table.store td {
+	vertical-align : top;
+}
+
+table.store td.space {
+	width : 5px;
+}
+
+table.store table.item td.toolbar {
+	vertical-align : bottom;
+	text-align : right;
+	padding : 0px 5px 5px 0px; 
+}
+
+table.store table.item td.image {
+	width : 160px;
+}
+
+table.store table.item td.image img{
+	width : 150px;
+	padding : 5px;
+}
+
+table.store table.item {
+	width : 470px;
+	height : 200px;
+	background : #e0e0e0;
+	margin-bottom : 10px;
+}
+
+table.store table.item:hover {
+	background : #bebebe;
+}
+
+table.store table.item th {
+	text-align : left;
+	font-weight : bold;
+	padding-top : 5px;
+}
+
+table.store table.item td {
+	vertical-align : top;
+}
+
+table.store table.item td.description {
+	padding-right : 5px;
+}
+
+table.store table.item td.description textarea {
+	height : 137px;
+}
+
+table.store table.item td.price {
+	color : #875119;	
+	vertical-align : bottom;
+	padding-bottom : 5px;
+}
+
+table.m4 {
+	width : 100%;
+}
+
+table.m4 p {
+	text-align : justify;
+}
+
+table.m4 td {
+	vertical-align : top;
+}
+
+table.m4 td.space {
+	width : 15px;
+}
+
+table.m4 td.left {
+	width : 300px;
+}
+
+div.marques {
+	width : 930px;
+	margin : auto;
+}
+
+div.marques div {
+	width : 85px;
+	float : left;
+	text-align : center;
+	margin : 4px;
+}
+
+div.marques img {
+}
+
+.login table {
+	margin : 100px auto;
+}
